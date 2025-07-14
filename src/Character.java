@@ -10,6 +10,7 @@ public Character(String name, int hp){
 }
 
     public final boolean isAlive(){
+
         return this.hp >0;
     }
     public void showStatus(){

@@ -4,6 +4,7 @@ public abstract class Monster implements Creature{
     private char suffix;
 
     public Monster(String name, char suffix, int hp) {
+        setName(name);
         setSuffix(suffix);
         setHp(hp);
         if(hp < 0){
