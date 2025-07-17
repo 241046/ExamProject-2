@@ -1,8 +1,5 @@
 public class Hero extends Character{
     private String weapon;
-//    private String name;
-//    private int hp;
-
     public String getWeapon(){
         return this.weapon;
     }

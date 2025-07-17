@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 public class GameMaster {
     public static void main(String[] args) {
         ArrayList<Character> party = new ArrayList<>();
