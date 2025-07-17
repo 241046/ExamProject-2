@@ -52,6 +52,7 @@ public class GameMaster {
 
         System.out.println("\nダメージを受けた" + hero.getName() + "が突然光りだした!");
         SuperHero sh = new SuperHero(hero);
+        party.set(0, sh);
         for (Monster h : monsters) {
             sh.attack(h);
         }

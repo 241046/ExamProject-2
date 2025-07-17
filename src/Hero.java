@@ -1,7 +1,7 @@
 public class Hero extends Character{
     private String weapon;
-    private String name;
-    private int hp;
+//    private String name;
+//    private int hp;
 
     public String getWeapon(){
         return this.weapon;
@@ -11,8 +11,8 @@ public class Hero extends Character{
         super(name, hp);
         this.weapon = weapon;
     }
-    public void attack(Creature target){
+    public void attack(Creature target) {
         System.out.println(getName() + "は" + getWeapon() + "で攻撃!" + target.getName() + "に10のダメージを与えた!");
-        target.setHp(target.getHp()-10);
-        }
+        target.setHp(target.getHp() - 10);
+    }
 }
